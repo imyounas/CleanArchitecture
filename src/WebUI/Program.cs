@@ -20,6 +20,7 @@ namespace CleanArchitecture.WebUI
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
+                //test Feature
 
                 try
                 {
